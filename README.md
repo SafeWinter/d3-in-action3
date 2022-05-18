@@ -57,7 +57,7 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | Ch01 |    [An introduction to D3.js](./Ch01.md)     | :hourglass_flowing_sand: |
 | Ch02 |      [Manipulating the DOM](./Ch02.md)       |      :orange_book:       |
 | Ch03 |        [Working with data](./Ch03.md)        |      :orange_book:       |
-| Ch04 |        Drawing lines, curves and arcs        |        :no_entry:        |
+| Ch04 | [Drawing lines, curves and arcs](./Ch04.md)  |        :no_entry:        |
 | Ch05 |          Visualizing distributions           |        :no_entry:        |
 | Ch06 | Integrating D3 in an interactive application |        :no_entry:        |
 |      |  **PART 2: INTRICATE DATA VISUALIZATIONS**   |                          |
@@ -71,6 +71,10 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 |      |       **PART 4: ADVANCED TECHNIQUES**        |                          |
 | Ch13 |        Writing layouts and components        |        :no_entry:        |
 | Ch14 |             Mixed mode rendering             |        :no_entry:        |
+|      |                **APPENDIXES**                |                          |
+|  A   |  Setting up a local development environment  |        :no_entry:        |
+|  B   |             Selecting a D3 scale             |        :no_entry:        |
+|  C   |        An overview of the D3 modules         |        :no_entry:        |
 
 
 
