@@ -40,7 +40,7 @@
 > 
 >> **about the author**
 > 
->**Elijah Meeks** is a co-founder and Chief Innovation Officer of Noteable, a startup focused on evolving how we analyze and communicate data. He is known for his pioneering work while at Stanford, where he was the technical lead for acclaimed works like ORBIS and Kindred Britain, as well as being Netflix's first Senior Data Visualization Engineer.
+>**Elijah Meeks** is a co-founder and Chief Innovation Officer of `Noteable`, a startup focused on evolving how we analyze and communicate data. He is known for his pioneering work while at Stanford, where he was the technical lead for acclaimed works like ORBIS and Kindred Britain, as well as being Netflix's first Senior Data Visualization Engineer.
 > 
 >**Anne-Marie Dufour** is a data visualization developer with a background in computation fluid dynamics and mechanical engineering. She loves breaking down complex subjects into digestible and applicable bits.
 
@@ -50,35 +50,35 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finished reading)
 
-| No.  |                Chapter Title                 |    Status     |
-| :--: | :------------------------------------------: | :-----------: |
-| Ch00 |             [Welcome](./Ch00.md)             | :orange_book: |
-|      |        **PART 1: D3.JS FUNDAMENTALS**        |               |
-| Ch01 |    [AN INTRODUCTION TO D3.JS](./Ch01.md)     | :orange_book: |
-| Ch02 |      [MANIPULATING THE DOM](./Ch02.md)       | :orange_book: |
-| Ch03 |        [WORKING WITH DATA](./Ch03.md)        | :orange_book: |
-| Ch04 |        DRAWING LINES, CURVES AND ARCS        |  :no_entry:   |
-| Ch05 |          VISUALIZING DISTRIBUTIONS           |  :no_entry:   |
-| Ch06 | INTEGRATING D3 IN AN INTERACTIVE APPLICATION |  :no_entry:   |
-|      |   **PART 2: INTRICATE DATA VISUALIZATIONS    |               |
-| Ch07 |         HIERARCHICAL VISUALIZATIONS          |  :no_entry:   |
-| Ch08 |            NETWORK VISUALIZATIONS            |  :no_entry:   |
-| Ch09 |    GEOSPATIAL INFORMATION VISUALIZATIONS     |  :no_entry:   |
-|      |      **PART 3: MEET THE NEW STANDARDS**      |               |
-| Ch10 |          INTERACTIVE VISUALIZATIONS          |  :no_entry:   |
-| Ch11 |          RESPONSIVE VISUALIZATIONS           |  :no_entry:   |
-| Ch12 |          ACCESSIBLE VISUALIZATIONS           |  :no_entry:   |
-|      |       **PART 4: ADVANCED TECHNIQUES**        |               |
-| Ch13 |        WRITING LAYOUTS AND COMPONENTS        |  :no_entry:   |
-| Ch14 |             MIXED MODE RENDERING             |  :no_entry:   |
+| No.  |                Chapter Title                 |          Status          |
+| :--: | :------------------------------------------: | :----------------------: |
+| Ch00 |             [Welcome](./Ch00.md)             |    :heavy_check_mark:    |
+|      |        **PART 1: D3.JS FUNDAMENTALS**        |                          |
+| Ch01 |    [An introduction to D3.js](./Ch01.md)     | :hourglass_flowing_sand: |
+| Ch02 |      [Manipulating the DOM](./Ch02.md)       |      :orange_book:       |
+| Ch03 |        [Working with data](./Ch03.md)        |      :orange_book:       |
+| Ch04 |        Drawing lines, curves and arcs        |        :no_entry:        |
+| Ch05 |          Visualizing distributions           |        :no_entry:        |
+| Ch06 | Integrating D3 in an interactive application |        :no_entry:        |
+|      |  **PART 2: INTRICATE DATA VISUALIZATIONS**   |                          |
+| Ch07 |         Hierarchical visualizations          |        :no_entry:        |
+| Ch08 |            Network visualizations            |        :no_entry:        |
+| Ch09 |    Geospatial information visualizations     |        :no_entry:        |
+|      |      **PART 3: MEET THE NEW STANDARDS**      |                          |
+| Ch10 |          Interactive visualizations          |        :no_entry:        |
+| Ch11 |          Responsive visualizations           |        :no_entry:        |
+| Ch12 |          Accessible visualizations           |        :no_entry:        |
+|      |       **PART 4: ADVANCED TECHNIQUES**        |                          |
+| Ch13 |        Writing layouts and components        |        :no_entry:        |
+| Ch14 |             Mixed mode rendering             |        :no_entry:        |
 
 
 
 Powershell script for generating markdown files in batch:
 
 ```powershell
-# Create 14 empty markdown files named Ch##.md:
-for($i=1; $i -le 14; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
+# Create 15 empty markdown files named Ch##.md:
+for($i=0; $i -le 14; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  
