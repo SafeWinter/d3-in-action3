@@ -4,7 +4,7 @@
 
 ## 1. Profiles
 
-![D3.js in Action 3rd Edition](assets/cover.png)
+![D3.js in Action 3rd Edition](./notes/assets/cover.png)
 
 |    **Title**    | **D3.js in Action, Third Edition** [[buy](https://www.manning.com/books/d3js-in-action-third-edition)] |
 | :-------------: | :----------------------------------------------------------: |
