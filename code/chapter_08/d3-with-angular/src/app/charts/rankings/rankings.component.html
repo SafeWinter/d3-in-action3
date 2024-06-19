@@ -1,0 +1,65 @@
+<app-card>
+  <h2>Rankings</h2>
+  <app-ranking-filters 
+    [filters]="rankingFilters"
+    [activeFilter]="activeFilter"
+    (clickDetected)="handleClick($event)"
+  ></app-ranking-filters>
+  <app-chart-container
+    [width]="width"
+    [height]="height"
+    [margin]="{top: margin.top, right: marginRight, bottom: margin.bottom, left: marginLeft}"
+  >
+    <svg:g 
+      *ngFor="let year of data.years" 
+      class="axis" 
+      [attr.transform]="translateTick(year)"
+    >
+      <svg:line 
+        [attr.x1]="0"
+        [attr.y1]="innerHeight"
+        [attr.x2]="0"
+        [attr.y2]="0"
+        [attr.stroke-dasharray]="'6 4'"
+      />
+      <svg:text
+        [attr.x]="0"
+        [attr.y]="innerHeight + 40"
+        [attr.text-anchor]="'middle'"
+      >
+        {{year}}
+      </svg:text>
+    </svg:g>
+    <svg:g *ngFor="let framework of data.experience">
+      <svg:g appCurve
+        [data]="framework[activeFilter]"
+        [stroke]="colorScale(framework.id)" 
+        [strokeWidth]="5"
+        [xAccessor]="xAccessor"
+        [yAccessor]="yAccessor"
+      ></svg:g>
+      <svg:g appLabel
+        *ngIf="framework[activeFilter][0].rank !== null"
+        [x]="-25"
+        [y]="labelVerticalPosition(framework[activeFilter], 'left')!"
+        [fill]="colorScale(framework.id)"
+        [label]="framework.name"
+        [textAnchor]="'end'"
+      ></svg:g>
+      <svg:g appLabel
+        [x]="innerWidth + 25"
+        [y]="labelVerticalPosition(framework[activeFilter], 'right')!"
+        [fill]="colorScale(framework.id)"
+        [label]="framework.name"
+      ></svg:g>
+      <svg:g *ngFor="let selection of framework[activeFilter]">
+        <svg:g appBadge
+          *ngIf="selection.rank !== null"
+          [translation]="getBadgeTranslation(selection)"
+          [strokeColor]="colorScale(framework.id)"
+          [label]="getPercentageLabel(selection.percentage_question)"
+        ></svg:g>
+      </svg:g>
+    </svg:g>
+  </app-chart-container>
+</app-card>

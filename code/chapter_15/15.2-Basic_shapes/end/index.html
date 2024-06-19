@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gallery of Canvas Shapes | D3.js in Action</title>
+</head>
+<body>
+	<div style="width:100%; max-width:1200px; margin:100px auto;">
+		<h2>Gallery of SVG Shapes</h2>
+
+  	<svg viewBox="0 0 1200 400" style="border:1px solid black;">
+
+			<line x1="66" y1="60" x2="186" y2="300" stroke="black" />
+
+      <rect x="346" y="33" width="160" height="80" fill="#6ba5d7" />
+      <rect x="346" y="133" width="160" height="80" rx="20" ry="20" fill="#6ba5d7" />
+
+			<g transform="translate(346, 233)">
+				<rect x="0" y="0" width="106" height="80" fill="transparent" stroke="#6ba5d7" />
+				<text x="0" y="113">rect</text>
+			</g>
+
+      <circle cx="706" cy="106" r="66" fill="none" stroke="#81c21c" stroke-width="3" />
+			
+      <ellipse cx="706" cy="273" rx="66" ry="40" fill="#81c21c" />
+          
+      <path d="M900 200 C 945 110, 965 110, 1010 200 S 1075 293, 1120 200" fill="none" stroke="#773b9a" stroke-width="3" />
+
+      <g fill="#636466" style="font-size:16px; font-family:monospace">
+        <text x="80" y="346">line</text>
+        <text x="706" y="206" style="text-anchor:middle">circle</text>
+        <text x="706" y="346" style="text-anchor:middle">ellipse</text>
+        <text x="973" y="346">path</text>
+      </g>
+
+		</svg>
+
+		<h2>Gallery of Canvas Shapes</h2>
+		<div id="canvas"></div>
+	</div>
+
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

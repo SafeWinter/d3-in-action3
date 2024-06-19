@@ -1,0 +1,33 @@
+<app-card>
+    <h2>Retention vs Usage</h2>
+    <app-chart-container
+      [width]="width"
+      [height]="height"
+      [margin]="margin"
+    >
+      <svg:g appAxis
+        [type]="'bottom'"
+        [scale]="xScale"
+        [innerWidth]="innerWidth"
+        [innerHeight]="innerHeight"
+        label="{{'User Count'}}"
+      ></svg:g>
+      <svg:g appAxis
+        [type]="'left'"
+        [scale]="yScale"
+        [innerWidth]="innerWidth"
+        [innerHeight]="innerHeight"
+        label="{{'Retention %'}}"
+      ></svg:g>
+      <svg:g appCircle
+        [data]="data"
+        [xScale]="xScale"
+        [yScale]="yScale"
+        [colorScale]="colorScale"
+        [xAccessor]="'user_count'"
+        [yAccessor]="'retention_percentage'"
+        [colorAccessor]="'id'"
+        [radius]="6"
+      ></svg:g>
+    </app-chart-container>
+  </app-card>
