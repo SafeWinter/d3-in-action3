@@ -9,13 +9,13 @@
 | Section                      | Title                    |          Status          |
 | ---------------------------- | ------------------------ | :----------------------: |
 | **Part 0**                   |                          |                          |
-| forward                      |                          | :hourglass_flowing_sand: |
-| preface                      |                          |        :no_entry:        |
-| acknowledgements             |                          |        :no_entry:        |
-| about this book              |                          |        :no_entry:        |
-| about the authors            |                          |        :no_entry:        |
-| about the cover illustration |                          |        :no_entry:        |
-| Part 1 - introduction        | D3.js fundamentals       |    :heavy_check_mark:    |
-| Ch01 - introduction          | An introduction to D3.js |        :no_entry:        |
-|                              |                          |                          |
+| forward                      |                          |    :heavy_check_mark:    |
+| preface                      |                          |    :heavy_check_mark:    |
+| acknowledgements             |                          |    :heavy_check_mark:    |
+| about this book              |                          |    :heavy_check_mark:    |
+| about the authors            |                          |    :heavy_check_mark:    |
+| about the cover illustration |                          |    :heavy_check_mark:    |
+| Part 1 - Introduction        | D3.js fundamentals       |    :heavy_check_mark:    |
+| Chapter 1 - Introduction     | An introduction to D3.js | :hourglass_flowing_sand: |
+| Ch 1.1 - Introduction        | What is D3.js            |                          |
 
