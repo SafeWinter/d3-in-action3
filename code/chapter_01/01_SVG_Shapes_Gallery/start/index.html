@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SVG Shapes Gallery | D3.js in Action</title>
+	<style>
+		.container {
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.box {
+			border: 1px solid #000;
+		}
+	</style>
 </head>
+
 <body>
-  
+	<div class="container">
+		<svg class="box" viewBox="0 0 900 300">
+			<line 
+				x1="-20" y1="45" 
+				x2="140" y2="225" 
+				stroke="black" 
+				stroke-width="3" />
+
+			<!-- <rect x="260" y="50" width="120" height="60" fill="#6ba5d7"/> -->
+			<rect x="260" y="50" width="120" height="60" fill="#81c21c"/>
+			<!-- <rect x="260" y="50" width="120" height="60" fill="#81c21c" stroke="#000"/> -->
+			<!-- <rect x="260" y="50" width="120" height="60" fill="none" stroke="#0060b1" stroke-width="3"/> -->
+			<!-- <rect x="260" y="25" width="120" height="60" 
+				fill="#0060b1" fill-opacity="0.3" 
+				stroke="#0060b1" stroke-width="3" stroke-opacity="0.6"/>
+			<rect x="260" y="100" width="120" height="60" 
+				rx="20" ry="20" fill="#6ba5d7"/>
+			<rect x="260" y="175" width="60" height="60" 
+				fill="transparent" stroke="#6ba5d7" stroke-width="4"/> -->
+			<circle cx="530" cy="80" r="50" 
+			    fill="transparent" stroke="#81c21c" stroke-width="3"/>
+			<ellipse cx="530" cy="205" rx="50" ry="30" 
+				fill="transparent" stroke="#81c21c"/>
+			<path d="M680 150 C 710 80, 725 80, 755 150 S 810 220, 840 150"  fill="none" stroke="#773b9a" stroke-width="3" />
+			<text x="60" y="260">line</text>
+			<text x="530" y="155" text-anchor="middle">circle</text>
+
+		</svg>
+	</div>
 </body>
+
 </html>
