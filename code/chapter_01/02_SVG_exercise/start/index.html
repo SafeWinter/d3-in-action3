@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SVG Exercise | D3.js in Action</title>
 </head>
+
 <body>
 	<div style="width:100%; max-width:400px; margin:0 auto;">
-  	
 		<!-- Create your SVG here! -->
+		<svg width="400" height="400" viewBox="0 0 400 400" style="border: 2px solid #ccc">
+			<g class="demo" transform="translate(100, 100)"
+				style="stroke: #000; stroke-width: 5px; font-size: 18px; font-family: sans-serif;">
+				<rect x="0" y="0" width="200" height="200" fill="transparent" />
 
+				<circle cx="100" cy="100" r="100" fill="plum" stroke="none" />
+
+				<line x1="0" y1="0" x2="200" y2="200" />
+				<line x1="200" y1="0" x2="0" y2="200" />
+
+				<text x="100" y="-10" style="text-anchor: middle" stroke="transparent">SVG is awesome!</text>
+			</g>
+		</svg>
 	</div>
 </body>
+
 </html>

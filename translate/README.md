@@ -24,9 +24,9 @@
 | Ch 1.2 - Introduction     |                                               |    :heavy_check_mark:    |
 | Ch 1.2.1                  | HTML and the DOM                              |    :heavy_check_mark:    |
 | Ch 1.2.2                  | Scalable Vector Graphics                      |    :heavy_check_mark:    |
-| Ch 1.2.3                  | Canvas and WebGL                              | :hourglass_flowing_sand: |
-| Ch 1.2.4                  | CSS                                           |        :no_entry:        |
-| Ch 1.2.5                  | JavaScript                                    |        :no_entry:        |
+| Ch 1.2.3                  | Canvas and WebGL                              |    :heavy_check_mark:    |
+| Ch 1.2.4                  | CSS                                           |    :heavy_check_mark:    |
+| Ch 1.2.5                  | JavaScript                                    | :hourglass_flowing_sand: |
 | Ch 1.2.6                  | Node and JavaScript frameworks                |        :no_entry:        |
 | Ch 1.2.7                  | Observable notebooks                          |        :no_entry:        |
 | Ch 1.3                    | Data visualization best practices             |        :no_entry:        |
