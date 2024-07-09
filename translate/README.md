@@ -27,8 +27,9 @@
 | Ch 1.2.3                  | Canvas and WebGL                              |    :heavy_check_mark:    |
 | Ch 1.2.4                  | CSS                                           |    :heavy_check_mark:    |
 | Ch 1.2.5                  | JavaScript                                    |    :heavy_check_mark:    |
-| Ch 1.2.6                  | Node and JavaScript frameworks                | :hourglass_flowing_sand: |
-| Ch 1.2.7                  | Observable notebooks                          |        :no_entry:        |
-| Ch 1.3                    | Data visualization best practices             |        :no_entry:        |
+| Ch 1.2.6                  | Node and JavaScript frameworks                |    :heavy_check_mark:    |
+| Ch 1.2.7                  | Observable notebooks                          |    :heavy_check_mark:    |
+| Ch 1.3                    | Data visualization best practices             | :hourglass_flowing_sand: |
 | Ch 1.4                    | Summary                                       |        :no_entry:        |
+| Chapter 2 - Introduction  | Manipulating the DOM                          |        :no_entry:        |
 
