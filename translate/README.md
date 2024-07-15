@@ -31,10 +31,10 @@
 | Ch 1.2.7                  | Observable notebooks                          |    :heavy_check_mark:    |
 | Ch 1.3                    | Data visualization best practices             |    :heavy_check_mark:    |
 | Ch 1.4                    | Summary                                       |    :heavy_check_mark:    |
-| Chapter 2 - Introduction  | Manipulating the DOM                          | :hourglass_flowing_sand: |
-| Ch 2.1                    | Your first D3 visualization                   |        :no_entry:        |
-| Ch 2.2 - Introduction     | Preparing your environment                    |        :no_entry:        |
-| Ch 2.2.1                  | The structure of our first D3 project         |        :no_entry:        |
+| Chapter 2 - Introduction  | Manipulating the DOM                          |    :heavy_check_mark:    |
+| Ch 2.1                    | Your first D3 visualization                   |    :heavy_check_mark:    |
+| Ch 2.2 - Introduction     | Preparing your environment                    |    :heavy_check_mark:    |
+| Ch 2.2.1                  | The structure of our first D3 project         | :hourglass_flowing_sand: |
 | Ch 2.2.2                  | Loading D3 into a project                     |        :no_entry:        |
 | Ch 2.3                    | Selecting elements                            |        :no_entry:        |
 | Ch 2.4                    | Adding elements to a selection                |        :no_entry:        |
