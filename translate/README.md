@@ -34,9 +34,9 @@
 | Chapter 2 - Introduction  | Manipulating the DOM                          |    :heavy_check_mark:    |
 | Ch 2.1                    | Your first D3 visualization                   |    :heavy_check_mark:    |
 | Ch 2.2 - Introduction     | Preparing your environment                    |    :heavy_check_mark:    |
-| Ch 2.2.1                  | The structure of our first D3 project         | :hourglass_flowing_sand: |
-| Ch 2.2.2                  | Loading D3 into a project                     |        :no_entry:        |
-| Ch 2.3                    | Selecting elements                            |        :no_entry:        |
+| Ch 2.2.1                  | The structure of our first D3 project         |    :heavy_check_mark:    |
+| Ch 2.2.2                  | Loading D3 into a project                     |    :heavy_check_mark:    |
+| Ch 2.3                    | Selecting elements                            | :hourglass_flowing_sand: |
 | Ch 2.4                    | Adding elements to a selection                |        :no_entry:        |
 | Ch 2.5                    | Selecting and modifying attributes            |        :no_entry:        |
 | Ch 2.6                    | Selecting and modifying styles                |        :no_entry:        |
