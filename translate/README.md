@@ -37,8 +37,8 @@
 | Ch 2.2.1                  | The structure of our first D3 project         |    :heavy_check_mark:    |
 | Ch 2.2.2                  | Loading D3 into a project                     |    :heavy_check_mark:    |
 | Ch 2.3                    | Selecting elements                            |    :heavy_check_mark:    |
-| Ch 2.4                    | Adding elements to a selection                | :hourglass_flowing_sand: |
-| Ch 2.5                    | Selecting and modifying attributes            |        :no_entry:        |
-| Ch 2.6                    | Selecting and modifying styles                |        :no_entry:        |
+| Ch 2.4                    | Adding elements to a selection                |    :heavy_check_mark:    |
+| Ch 2.5                    | Selecting and modifying attributes            |    :heavy_check_mark:    |
+| Ch 2.6                    | Selecting and modifying styles                | :hourglass_flowing_sand: |
 | Ch 2.7                    | Summary                                       |        :no_entry:        |
 
