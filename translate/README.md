@@ -41,8 +41,8 @@
 | Ch 2.5                    | Selecting and modifying attributes            |    :heavy_check_mark:    |
 | Ch 2.6                    | Selecting and modifying styles                |    :heavy_check_mark:    |
 | Ch 2.7                    | Summary                                       |    :heavy_check_mark:    |
-| Chapter 3 - Introduction  | Working with data                             | :hourglass_flowing_sand: |
-| Ch 3.1 - Introduction     | Understanding data                            |        :no_entry:        |
+| Chapter 3 - Introduction  | Working with data                             |    :heavy_check_mark:    |
+| Ch 3.1 - Introduction     | Understanding data                            | :hourglass_flowing_sand: |
 | Ch 3.1.1                  | Finding data                                  |        :no_entry:        |
 | Ch 3.1.2                  | Data types                                    |        :no_entry:        |
 | Ch 3.1.3                  | Data formats and structures                   |        :no_entry:        |
