@@ -42,16 +42,16 @@
 | Ch 2.6                    | Selecting and modifying styles                |    :heavy_check_mark:    |
 | Ch 2.7                    | Summary                                       |    :heavy_check_mark:    |
 | Chapter 3 - Introduction  | Working with data                             |    :heavy_check_mark:    |
-| Ch 3.1 - Introduction     | Understanding data                            | :hourglass_flowing_sand: |
-| Ch 3.1.1                  | Finding data                                  |        :no_entry:        |
-| Ch 3.1.2                  | Data types                                    |        :no_entry:        |
-| Ch 3.1.3                  | Data formats and structures                   |        :no_entry:        |
-| Ch 3.2 - Introduction     | Preparing data                                |        :no_entry:        |
-| Ch 3.2.1                  | Loading a dataset into a D3 project           |        :no_entry:        |
-| Ch 3.2.2                  | Formatting a dataset                          |        :no_entry:        |
-| Ch 3.2.3                  | Measuring a dataset                           |        :no_entry:        |
-| Ch 3.3 - Introduction     | Binding data to DOM elements                  |        :no_entry:        |
-| Ch 3.3.1                  | Setting DOM attributes dynamically with data  |        :no_entry:        |
+| Ch 3.1 - Introduction     | Understanding data                            |    :heavy_check_mark:    |
+| Ch 3.1.1                  | Finding data                                  |    :heavy_check_mark:    |
+| Ch 3.1.2                  | Data types                                    |    :heavy_check_mark:    |
+| Ch 3.1.3                  | Data formats and structures                   |    :heavy_check_mark:    |
+| Ch 3.2 - Introduction     | Preparing data                                |    :heavy_check_mark:    |
+| Ch 3.2.1                  | Loading a dataset into a D3 project           |    :heavy_check_mark:    |
+| Ch 3.2.2                  | Formatting a dataset                          |    :heavy_check_mark:    |
+| Ch 3.2.3                  | Measuring a dataset                           |    :heavy_check_mark:    |
+| Ch 3.3 - Introduction     | Binding data to DOM elements                  | :hourglass_flowing_sand: |
+| Ch 3.3.1                  | Setting DOM attributes dynamically with data  | :hourglass_flowing_sand: |
 | Ch 3.4 - Introduction     | Adapting data from the screen                 |        :no_entry:        |
 | Ch 3.4.1                  | Scales                                        |        :no_entry:        |
 | Ch 3.4.2                  | Linear scale                                  |        :no_entry:        |
