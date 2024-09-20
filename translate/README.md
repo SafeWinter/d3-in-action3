@@ -52,9 +52,9 @@
 | Ch 3.2.3                  | Measuring a dataset                           |    :heavy_check_mark:    |
 | Ch 3.3 - Introduction     | Binding data to DOM elements                  |    :heavy_check_mark:    |
 | Ch 3.3.1                  | Setting DOM attributes dynamically with data  |    :heavy_check_mark:    |
-| Ch 3.4 - Introduction     | Adapting data from the screen                 | :hourglass_flowing_sand: |
-| Ch 3.4.1                  | Scales                                        |        :no_entry:        |
-| Ch 3.4.2                  | Linear scale                                  |        :no_entry:        |
+| Ch 3.4 - Introduction     | Adapting data from the screen                 |    :heavy_check_mark:    |
+| Ch 3.4.1                  | Scales                                        |    :heavy_check_mark:    |
+| Ch 3.4.2                  | Linear scale                                  | :hourglass_flowing_sand: |
 | Ch 3.4.3                  | Band scale                                    |        :no_entry:        |
 | Ch 3.5                    | Adding labels to a chart                      |        :no_entry:        |
 | Ch 3.6                    | Summary                                       |        :no_entry:        |
