@@ -5,13 +5,16 @@ const svg = d3.select(".responsive-svg-container")
     .style("border", "1px solid black");
 
 // Load, format and measure the dataset
-d3.csv("../data/data.csv", d => ({
-  technology: d.technology,
-  count: +d.count
-})).then(data => {
-  data.sort((a, b) => b.count - a.count);
+const drawBarChart = async () => {
+  const csvData = await d3.csv('../data/data.csv');
+  const data = csvData.map(({technology, count}) => ({
+        technology, 
+        count: +count
+      }))
+      .sort((a, b) => b.count - a.count);
+
   createViz(data);
-});
+};
 
 // Create the bar graph
 const createViz = (data) => {
@@ -66,3 +69,5 @@ const testXScale = (xScale) => {
   // 运行测试
   mocha.run();
 };
+
+drawBarChart();

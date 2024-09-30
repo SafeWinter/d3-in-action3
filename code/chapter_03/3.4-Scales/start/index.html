@@ -3,15 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>3.3 Binding data | D3.js in Action</title>
+	<title>3.4 Linear scale | D3.js in Action</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<!-- Load Mocha CSS -->
+	<link rel="stylesheet" href="css/mocha.css" type="text/css">
 </head>
 <body>
 	<div class="responsive-svg-container"></div>
+	<div id="mocha"></div><!-- test result container -->
 
 	<!-- Load your scripts here -->
 	<script src="js/d3.v7.min.js"></script>
 	<script src="js/main.js"></script>
+	<!-- aync-await version for d3.csv() method -->
+	<!-- <script src="js/main0.js"></script> -->
+	<!-- use Mocha to test linear scale xScale -->
+	<script src="js/mocha.js"></script>
+    <script src="js/chai.min.js"></script>
 </body>
 </html>
