@@ -55,7 +55,7 @@
 |    :heavy_check_mark:    | Ch 3.4 - Introduction     | Adapting data from the screen                 |
 |    :heavy_check_mark:    | Ch 3.4.1                  | Scales                                        |
 |    :heavy_check_mark:    | Ch 3.4.2                  | Linear scale                                  |
-| :hourglass_flowing_sand: | Ch 3.4.3                  | Band scale                                    |
-|        :no_entry:        | Ch 3.5                    | Adding labels to a chart                      |
+|    :heavy_check_mark:    | Ch 3.4.3                  | Band scale                                    |
+| :hourglass_flowing_sand: | Ch 3.5                    | Adding labels to a chart                      |
 |        :no_entry:        | Ch 3.6                    | Summary                                       |
 
