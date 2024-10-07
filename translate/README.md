@@ -56,6 +56,8 @@
 |    :heavy_check_mark:    | Ch 3.4.1                  | Scales                                        |
 |    :heavy_check_mark:    | Ch 3.4.2                  | Linear scale                                  |
 |    :heavy_check_mark:    | Ch 3.4.3                  | Band scale                                    |
-| :hourglass_flowing_sand: | Ch 3.5                    | Adding labels to a chart                      |
-|        :no_entry:        | Ch 3.6                    | Summary                                       |
+|    :heavy_check_mark:    | Ch 3.5                    | Adding labels to a chart                      |
+|    :heavy_check_mark:    | Ch 3.6                    | Summary                                       |
+| :hourglass_flowing_sand: | Chapter 4 - Introduction  | Drawing lines, curves, and arcs               |
+|        :no_entry:        | Ch 4.1 - Introduction     | Creating axes                                 |
 
