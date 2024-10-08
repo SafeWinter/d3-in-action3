@@ -67,8 +67,8 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 |      |              **PART 1: D3.js fundamentals**               |                          |
 | Ch01 |        [An introduction to D3.js](./notes/Ch01.md)        |    :heavy_check_mark:    |
 | Ch02 |          [Manipulating the DOM](./notes/Ch02.md)          |    :heavy_check_mark:    |
-| Ch03 |           [Working with data](./notes/Ch03.md)            | :hourglass_flowing_sand: |
-| Ch04 |     [Drawing lines, curves and arcs](./notes/Ch04.md)     |        :no_entry:        |
+| Ch03 |           [Working with data](./notes/Ch03.md)            |    :heavy_check_mark:    |
+| Ch04 |     [Drawing lines, curves and arcs](./notes/Ch04.md)     | :hourglass_flowing_sand: |
 | Ch05 |         [Pie and stack layouts](./notes/Ch05.md)          |        :no_entry:        |
 | Ch06 |       [Visualizing distributions](./notes/Ch06.md)        |        :no_entry:        |
 |      |           **PART 2: Meeting the new standards**           |                          |
