@@ -22,7 +22,7 @@ d3.csv("../data/weekly_temperature.csv");
 d3.csv("../data/weekly_temperature.csv", d3.autoType);
 ```
 
-值得注意的是，`d3.autoType` 可能会由于数据类型的不确定性而出错。例如一个四位数 `2023`，既可以是数字类型，也可能是日期型。这是 `d3.autoType` 会按数字进行转换，而您却希望按日期解析。因此有必要在数据加载完毕后进行双重验证。更多详细，可以参考发表在 `Observable` 上的一篇写得很棒的文章：[https://observablehq.com/@d3/d3-autotype](https://observablehq.com/@d3/d3-autotype)。
+值得注意的是，`d3.autoType` 可能会由于数据类型的不确定性而出错。例如一个四位数 `2023`，既可以是数字类型，也可能是日期型。这时 `d3.autoType` 会按数字进行转换，但如果您恰巧希望按日期来解析，就会出问题。因此，有必要在数据加载完毕后再验证一遍数据格式。有关更多 D3 自动转换数据类型的详细信息，可以参考发表在 `Observable` 上的一篇写得很棒的文章：[https://observablehq.com/@d3/d3-autotype](https://observablehq.com/@d3/d3-autotype)。
 
 为此，可以继续使用 `JavaScript` 的 `Promise` 来访问加载的数据集，然后将其输出到控制台，以确认日期都正确转成了 JavaScript 日期格式，而气温值则转成了数字，如图 4.2 所示：
 
