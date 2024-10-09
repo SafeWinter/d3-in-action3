@@ -59,5 +59,18 @@
 |    :heavy_check_mark:    | Ch 3.5                    | Adding labels to a chart                      |
 |    :heavy_check_mark:    | Ch 3.6                    | Summary                                       |
 | :hourglass_flowing_sand: | Chapter 4 - Introduction  | Drawing lines, curves, and arcs               |
-|        :no_entry:        | Ch 4.1 - Introduction     | Creating axes                                 |
+| :hourglass_flowing_sand: | Ch 4.1 - Introduction     | Creating axes                                 |
+|        :no_entry:        | Ch 4.1.1                  | The margin convention                         |
+|        :no_entry:        | Ch 4.1.2                  | Generating axes                               |
+|        :no_entry:        | Ch 4.2 - Introduction     | Drawing a line chart                          |
+|        :no_entry:        | Ch 4.2.1                  | Using the line generator                      |
+|        :no_entry:        | Ch 4.2.2                  | Interpolating data points into a curve        |
+|        :no_entry:        | Ch 4.3 - Introduction     | Drawing an area                               |
+|        :no_entry:        | Ch 4.3.1                  | Using the area generator                      |
+|        :no_entry:        | Ch 4.3.2                  | Enhancing readability with labels             |
+|        :no_entry:        | Ch 4.4 - Introduction     | Drawing arcs                                  |
+|        :no_entry:        | Ch 4.4.1                  | The polar coordinate system                   |
+|        :no_entry:        | Ch 4.4.2                  | Using the arc generator                       |
+|        :no_entry:        | Ch 4.4.3                  | Calculating the centroid of an arc            |
+|        :no_entry:        | Ch 4.5                    | Summary                                       |
 
